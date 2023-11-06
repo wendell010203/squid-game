@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 18px;
+}
+
+body{
+    background-color: #1F2937;
+    font-family: 'Roboto' , sans-serif;
+}
+
+.container{
+    width: 1080px;
+    margin: 0 auto;
+}
+
+.container.nav{
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img{
+    height: 50px;
+}
+
+nav{
+    display: flex;
+    gap: 30px;
+}
+
+nav a{
+    text-decoration: none;
+    color: white;
+    transition: 80ms;
+    font-size: 18px;
+}
+
+nav a:hover{
+    color: rosybrown;
+}
+
+.container.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    padding: 70px 0px;
+}
+
+.heroleft{
+    width: 520px;
+    font-size: 18px;
+}
+
+.heroleft h1{
+    font-size: 48px;
+    font-weight: 900;
+    margin-bottom: 10px;
+}
+
+.heroleft p{
+    margin-bottom: 25px;
+    color: #E5E7EB;
+}
+
+.heroleft a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    background-color: rosybrown;
+    padding: 7px 25px;
+    border-radius: 2px;
+    transition: 80ms;
+}
+
+.heroleft a:hover{
+    color: rosybrown;
+    background-color: #E5E7EB;
+}
+
+.heroright img{
+    width: 480px;
+    border: 2px solid rosybrown;
+    border-radius: 10px;
+}
+
+.information{
+    background-color: rosybrown;
+}
+
+.container.info{
+    padding: 50px 0px;
+}
+
+.container.info h1{
+    font-size: 36px;
+    color: #1F2937;
+    text-align: center;
+    width: 900px;
+    margin: 0 auto;
+}
+
+.infoSubtext{
+    display: flex;
+    margin: 0 auto;
+    margin-top: 30px;
+    justify-content: center;
+    gap: 40px;
+}
+
+.infoImgNText{
+    text-align: center;
+    width: 200px;
+}
+
+.infoImgNText img{
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    border: 2px solid #E5E7EB;
+}
+
+.infoImgNText p{
+    margin-top: 5px;
+    color: #1F2937;
+}
+
+.container.qoute{
+    padding: 30px 0px;
+}
+
+.container.qoute img{
+    display: block;
+    margin: 0 auto;
+    width: 700px;
+    border-radius: 10px;
+    border: 2px solid rosybrown;
+}
+
+.calltoaction{
+    background-color: rosybrown;
+    padding: 80px 0;
+}
+
+.container.call{
+    width: 800px;
+    height: 100px;
+    background-color: #E5E7EB;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px black;
+}
+
+.callRight a{
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    background-color: rosybrown;
+    padding: 7px 25px;
+    border-radius: 2px;
+    transition: 80ms;
+}
+
+.callRight a:hover{
+    color: rosybrown;
+    background-color: #E5E7EB;
+}
