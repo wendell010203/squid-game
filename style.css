@@ -148,12 +148,15 @@ nav a:hover{
 }
 
 .container.call{
-    width: 800px;
-    height: 100px;
     background-color: #E5E7EB;
     margin: 0 auto;
     border-radius: 10px;
     box-shadow: 0px 0px 10px black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 120px;
+    color: #1F2937;
 }
 
 .callRight a{
@@ -169,4 +172,10 @@ nav a:hover{
 .callRight a:hover{
     color: rosybrown;
     background-color: #E5E7EB;
+}
+
+footer{
+    color: #E5E7EB;
+    text-align: center;
+    padding: 40px 0;
 }
